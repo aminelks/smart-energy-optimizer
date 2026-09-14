@@ -1,0 +1,32 @@
+# Raw data
+archive/
+
+# Generated datasets
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# Generated metrics and result tables
+outputs/*
+!outputs/.gitkeep
+
+# Generated report data
+reports/*.csv
+reports/*.json
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook and local files
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
